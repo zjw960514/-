@@ -25,34 +25,39 @@ public class JieQu {
 
 	@Test
 	public void testReplace() {
-	      //public String replaceAll(String regex, String replacement)
-	      //使用给定的 replacement 替换此字符串所有匹配给定的正则表达式的子字符串
-	      String str = "dhfiher7823hdf23iahAHD3433dfhidh123dhf";
-	      String result = str.replaceAll("\\d+", "#NUMBER#");
-	      System.out.println(result);
-	}
-	
-	@Test
-	public  void Testerr(){
-		// TODO Auto-generated method stub
-		int a = 2;
-		int b = 2; 
-		Testerr(23,1);
-	}
-	
-	@Test
-	public void  Testerr(int a , int b ){
-	 
-	 	try {
-			int n = a / b;
-			System.out.println(n);
-		} catch (Exception e) {
-			// TODO: handle exception
-			System.out.println("程序有错误");
-		}finally {
-			System.out.println(525555555);
-		}
+		// public String replaceAll(String regex, String replacement)
+		// 使用给定的 replacement 替换此字符串所有匹配给定的正则表达式的子字符串
+		String str = "dhfiher7823hdf23iahAHD3433dfhidh123dhf";
+		String result = str.replaceAll("\\d+", "#NUMBER#");
+		System.out.println(result);
 	}
 
+	@Test
+	public void Tdd() {
+		// TODO Auto-generated method stub
+//		int a = 2;
+//		int b = 2;
+//		Testerr(23, 1);
+		int num9 = 6 ;
+		int num98 = 0 ;
+		Testerr(num9 , num98);
+	}
+
+	
+	public void Testerr(int num9 , int num98) {
+		
+		try {
+			int result = num9 / num98;
+		}
+//		catch (StringIndexOutOfBoundsException e) {
+//			// TODO: handle exception
+//			System.out.println(e);
+//		} 
+		catch (Exception e) {
+			// TODO: handle exception
+			System.out.println(e);
+		}
+		
+	}
 
 }
